@@ -58,6 +58,9 @@ components:
     MobilityRestrictions:
       type: string
       pattern: '^[A-Fa-f0-9]*$'
+    CorrelationID:
+      type: string
+      pattern: '^[A-Fa-f0-9]*$'
     Uinteger:
       type: integer
       minimum: 0
